@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="TestNG Test Automation Suite">
+	<test name="TestNG Feature Test">
+
+		<classes>
+			<class name="TestNGConcept.GoogleTest" />
+			<class name="TestNGConcept.TestNGBasics" />
+			<class name="TestNGConcept.TestNGFeatures" />
+		</classes>
+
+	</test>
+</suite>
